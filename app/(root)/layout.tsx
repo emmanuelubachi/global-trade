@@ -6,7 +6,6 @@ const layout = ({ children }: { children: React.ReactNode }) => {
     <main className="relative">
       <div className="flex">
         <Leftsidebar />
-
         <section>{children}</section>
       </div>
     </main>
